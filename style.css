@@ -1,3 +1,53 @@
+@media screen and (max-width: 768px) 
+{ .navbar-header {
+    width: 100%;
+} .navbar-brand {
+    width: 100%;
+} .navbar-nav {
+    width: 100%;
+    float: left;
+} .container {
+    width: 100%;
+} main {
+    width: 100%;
+    margin: 0 auto;
+} .col-auto {
+    width: 100%;
+} .col-auto img {
+    text-align: center;
+    display: inline;
+    margin: 0 auto;
+}
+
+}
+
+@media screen and (max-width: 968px) 
+{ .navbar-header {
+    width: 100%;
+} .navbar-brand {
+    width: 100%;
+} .navbar-nav {
+    width: 100%;
+    float: left;
+} .container {
+    width: 100%;
+} main {
+    width: 100%;
+    margin: 0 auto;
+} .col-auto {
+    width: 100%;
+} .col-auto img {
+    text-align: center;
+    display: inline;
+    margin: 0 auto;
+
+}
+
+}
+
+
+
+
 body {
     background: url(images/old_moon.png) top left repeat;
     position: relative;
@@ -156,18 +206,6 @@ textarea {
     margin-top: 10px;
     border-color: #dddddd;
 }
-
-
-
-
-/*html {
-    height: 100%;
-  }
-  body {
-    display: flex;
-    flex-direction: column;
-    height: 100vh; 
-  }*/
 
 .portfolio-link{
     height: 200px;
